@@ -1,0 +1,171 @@
+﻿cl : command line  warning D9025: overriding '/std:c++20' with '/std:c++17'
+  BaseGame.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'BaseGame.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'BaseGame.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'BaseGame.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Engine\BaseGame.cpp(219,42): warning C4244: 'argument': conversion from 'SDL_GameControllerAxis' to 'unsigned char', possible loss of data
+E:\DAE\semester2\programming2\gameProject\game\Engine\BaseGame.cpp(219,20): warning C4189: 'key': local variable is initialized but not referenced
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         with
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         [
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:             _Ty=SDL_GameControllerButton
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         ]
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         and
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         [
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:             _Ty1=const Uint8
+C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16): warning C4244:         ]
+  (compiling source file 'BaseGame.cpp')
+      C:\visualStudio26\VC\Tools\MSVC\14.44.35207\include\utility(274,16):
+      the template instantiation context (the oldest one first) is
+          E:\DAE\semester2\programming2\gameProject\game\Engine\BaseGame.cpp(262,3):
+          see reference to function template instantiation 'std::pair<const Uint8,SDL_Scancode>::pair<SDL_GameControllerButton,SDL_Scancode,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=SDL_GameControllerButton,
+              _Other2=SDL_Scancode
+          ]
+              E:\DAE\semester2\programming2\gameProject\game\Engine\BaseGame.cpp(261,18):
+              see the first reference to 'std::pair<const Uint8,SDL_Scancode>::pair' in 'BaseGame::InitControllerMap'
+  
+  Matrix2x3.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Matrix2x3.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Matrix2x3.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Matrix2x3.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  SoundEffect.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundEffect.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundEffect.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundEffect.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  SoundStream.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundStream.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundStream.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SoundStream.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  structs.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'structs.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'structs.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'structs.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  SVGParser.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SVGParser.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SVGParser.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'SVGParser.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  Texture.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Texture.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Texture.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Texture.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  utils.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'utils.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'utils.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'utils.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  Vector2f.cpp
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Vector2f.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(553,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Vector2f.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(554,41):
+      statement that may fall through is here
+  
+E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(556,9): warning C5262: implicit fall-through occurs here; are you missing a break statement? Use [[fallthrough]] when a break statement is intentionally omitted between cases
+  (compiling source file 'Vector2f.cpp')
+      E:\DAE\semester2\programming2\gameProject\game\Libraries\SDLMain\SDL2-2.30.11\include\SDL_stdinc.h(555,41):
+      statement that may fall through is here
+  
+  Generating Code...
+  Engine.vcxproj -> E:\DAE\semester2\programming2\gameProject\game\x64\Debug\Engine.lib
