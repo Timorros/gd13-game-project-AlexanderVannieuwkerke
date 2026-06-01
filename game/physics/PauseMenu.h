@@ -8,7 +8,7 @@ class PauseMenu final
 public:
 	PauseMenu(const PauseMenu& other) = delete;
 	PauseMenu(PauseMenu&& other);
-	PauseMenu(Rectf viewport);
+	explicit PauseMenu(Rectf viewport);
 	~PauseMenu();
 	PauseMenu& operator=(const PauseMenu& other) = delete;
 	PauseMenu& operator=(PauseMenu&& other) = delete;

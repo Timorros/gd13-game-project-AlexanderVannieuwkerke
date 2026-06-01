@@ -8,7 +8,7 @@ class Bumper
 public:
 	Bumper(const Bumper& other);
 	Bumper(Bumper&& other);
-	Bumper(const std::string& path, float bounceForce, Rectf bounds, const std::vector<int>& animationFramesPerRow, float radius = 7.5f);
+	explicit Bumper(const std::string& path, float bounceForce, Rectf bounds, const std::vector<int>& animationFramesPerRow, float radius = 7.5f);
 	virtual ~Bumper();
 
 	Bumper& operator=(const Bumper& other);

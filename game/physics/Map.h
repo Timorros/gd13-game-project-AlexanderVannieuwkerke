@@ -27,7 +27,7 @@ public:
 
 	Map(Map& other) = delete;
 	Map(Map&& other);
-	Map(Ball* ball, float scale);
+	explicit Map(Ball* ball, float scale);
 	~Map();
 
 	Map& operator=(Map& other) = delete;

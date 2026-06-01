@@ -7,7 +7,7 @@ class Lane final
 public:
 	Lane(const Lane& other);
 	Lane(Lane&& other);
-	Lane(std::string path, Circlef trigger1, Circlef trigger2, Vector2f pos1, Vector2f pos2, Vector2f pos3);
+	explicit Lane(std::string path, Circlef trigger1, Circlef trigger2, Vector2f pos1, Vector2f pos2, Vector2f pos3);
 	~Lane();
 
 	Lane& operator=(const Lane& other);

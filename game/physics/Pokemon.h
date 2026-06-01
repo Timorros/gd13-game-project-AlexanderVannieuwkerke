@@ -4,7 +4,7 @@
 class Pokemon : public Bumper
 {
 public:
-	Pokemon(const Bumper& bumper);
+	explicit Pokemon(const Bumper& bumper);
 	virtual ~Pokemon() = default;
 
 	virtual bool CalcPhysics(Ball& ball, float elapsedSec) override;

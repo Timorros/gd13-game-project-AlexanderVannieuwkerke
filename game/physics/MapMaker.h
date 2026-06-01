@@ -12,7 +12,7 @@ class MapMaker final
 public:
 	MapMaker(const MapMaker& other);
 	MapMaker(MapMaker&& other);
-	MapMaker( float scale );
+	explicit MapMaker( float scale );
 
 	MapMaker& operator=(const MapMaker& other) = delete;
 	MapMaker& operator=(MapMaker&& other) = delete;

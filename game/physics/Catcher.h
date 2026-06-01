@@ -6,7 +6,7 @@ class Animator;
 class Catcher final
 {
 public:
-	Catcher(const std::string& spriteSheetPath, const Rectf& bounds, const Circlef& catchHitbox, Ball* pball, const std::vector<int>& animationFramesPerRow);
+	explicit Catcher(const std::string& spriteSheetPath, const Rectf& bounds, const Circlef& catchHitbox, Ball* pball, const std::vector<int>& animationFramesPerRow);
 	Catcher(const Catcher& other);
 	Catcher(Catcher&& other);
 	~Catcher();

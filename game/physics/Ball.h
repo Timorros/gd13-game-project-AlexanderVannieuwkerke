@@ -17,7 +17,7 @@ enum class BallType
 class Ball final
 {
 public:
-	Ball(Circlef bounds, Vector2f velocity);
+	explicit Ball(Circlef bounds, Vector2f velocity);
 	Ball(const Ball& other);
 	Ball(Ball&& other);
 	~Ball();

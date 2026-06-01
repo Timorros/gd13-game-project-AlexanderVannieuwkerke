@@ -5,7 +5,7 @@
 class BabyPokemon final : public Pokemon
 {
 public:
-	BabyPokemon(const Bumper& bumper);
+	explicit BabyPokemon(const Bumper& bumper);
 	~BabyPokemon() = default;
 
 	void Update(float elapsedSec) override;
