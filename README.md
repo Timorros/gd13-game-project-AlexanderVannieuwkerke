@@ -48,8 +48,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-TODO: add screenshot 
-
 Here's why:
 TODO: describe why you chose this game 
 * I recently discovered this addictive game and fell in love with it.
@@ -85,17 +83,10 @@ TODO: describe why you chose this game
 
 <!-- GETTING STARTED -->
 ## Getting Started
-Detailed instructions on how to run your game project are in this section.
+In the main branch open the game folder, then open the x64 folder and the debug folder that is in there. Then launch the gd13-game-project-AlexanderVannieuwkerke.exe file.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* Visual Studio 2022
-
-### How to run the project
-
-Explain which project (version) must be run.
-* any extra steps if required 
+A computer with windows and a copy of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
