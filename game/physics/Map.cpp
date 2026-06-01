@@ -173,7 +173,6 @@ void Map::Draw() const
 		m_pBGTexture->Draw(Vector2f{ 0,0 }, Rectf{ (m_pBGTexture->GetWidth() / 3) * 2, 0, m_pBGTexture->GetWidth() / 3, m_pBGTexture->GetHeight() });
 		m_pCatcher->Draw();
 		m_pBumper->Draw();
-		DrawEllipse(m_pBumper->GetHitbox().circle);
 		m_pSpoink->Draw();
 
 		if(m_pPokemon != nullptr)

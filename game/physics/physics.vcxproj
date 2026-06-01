@@ -176,6 +176,7 @@ xcopy "$(ProjectDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="JsonManager.cpp" />
     <ClCompile Include="Lane.cpp" />
+    <ClCompile Include="LPaddle.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MapMaker.cpp" />
     <ClCompile Include="Paddle.cpp" />
@@ -195,6 +196,7 @@ xcopy "$(ProjectDir)Resources\*.*" "$(TargetDir)" /y /d /s</Command>
     <ClInclude Include="jsmn.h" />
     <ClInclude Include="JsonManager.h" />
     <ClInclude Include="Lane.h" />
+    <ClInclude Include="LPaddle.h" />
     <ClInclude Include="MapMaker.h" />
     <ClInclude Include="nlohmann\json.hpp" />
     <ClInclude Include="nlohmann\json_fwd.hpp" />

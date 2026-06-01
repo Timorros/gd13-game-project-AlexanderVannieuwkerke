@@ -39,7 +39,7 @@ void Catcher::Draw() const
 {
 	m_pAnimator->Draw();
 
-	utils::DrawEllipse(m_CatchHitbox.center, m_CatchHitbox.radius, m_CatchHitbox.radius);
+	//utils::DrawEllipse(m_CatchHitbox.center, m_CatchHitbox.radius, m_CatchHitbox.radius);
 }
 
 void Catcher::Update(float elapsedSec)

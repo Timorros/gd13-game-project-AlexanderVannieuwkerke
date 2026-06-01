@@ -43,19 +43,19 @@ public:
 private:
 	std::vector<Hitbox> m_Hitboxes{};
 	Paddle m_Paddle{};
-	Phase m_CurrentPhase{ Phase::Free };
-
-	Texture* m_pBGTexture{ nullptr };
-	Texture* m_pCatchMarking{ nullptr };
+	Phase m_CurrentPhase{Phase::Free};
+	
+	Texture* m_pBGTexture{nullptr};
+	Texture* m_pCatchMarking{nullptr};
 	Texture* m_pHatchArrow{ nullptr };
 	Texture* m_pBumperArrow{ nullptr };
 	Texture* m_pMartArrow{ nullptr };
 	Texture* m_pEvoArrow{ nullptr };
 	Texture* m_pCatchArrow{ nullptr };
-	Lane* m_pEvoLane{ nullptr };
-	Lane* m_pMoneyLane{ nullptr };
-	Lane* m_pCatchLane{ nullptr };
-	Ball* m_pBall{ nullptr };
+	Lane* m_pEvoLane{nullptr};
+	Lane* m_pMoneyLane{nullptr};
+	Lane* m_pCatchLane{nullptr};
+	Ball* m_pBall{nullptr};
 	Catcher* m_pCatcher{ nullptr };
 	Bumper* m_pBumper{ nullptr };
 	Pokemon* m_pPokemon{ nullptr };
@@ -63,7 +63,7 @@ private:
 	//Pokemon* m_pLaunchPokemon{ nullptr };
 	float m_Scale{ 1.f };
 	int m_TimesBumped{ 0 };
-}
+};
 
 //pokemon
 //	|_> freePokemon

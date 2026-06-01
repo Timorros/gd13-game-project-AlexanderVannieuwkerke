@@ -106,8 +106,8 @@ bool Lane::Update(float elapsedSec, const Circlef& ballBounds)
 }
 void Lane::Draw()
 {
-	utils::DrawEllipse(m_FirstTrigger.center, m_FirstTrigger.radius, m_FirstTrigger.radius);
-	utils::DrawEllipse(m_SecondTrigger.center, m_SecondTrigger.radius, m_SecondTrigger.radius);
+	//utils::DrawEllipse(m_FirstTrigger.center, m_FirstTrigger.radius, m_FirstTrigger.radius);
+	//utils::DrawEllipse(m_SecondTrigger.center, m_SecondTrigger.radius, m_SecondTrigger.radius);
 	for (int idx{}; idx < 4; ++idx)
 	{
 		if (m_Passes > idx)
