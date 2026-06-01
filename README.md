@@ -83,7 +83,8 @@ TODO: describe why you chose this game
 
 <!-- GETTING STARTED -->
 ## Getting Started
-In the main branch open the game folder, then open the x64 folder and the debug folder that is in there. Then launch the gd13-game-project-AlexanderVannieuwkerke.exe file.
+You'll need visual studio set up like told in the prog 2 course.
+Then you need to open the sln file in the game folder. Click on the play button on top of the visual studio window, this will build the code and start the game.
 
 ### Prerequisites
 A computer with windows and a copy of the project.
